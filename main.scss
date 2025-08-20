@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.my-2{
+  padding: 20px;
+}
+.mt-2{
+  margin-top: 30px;
+
+}
+.my-3{
+  padding: 30px;
+}
+.section-padding{
+  padding:10px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px 0;
+
+}
+.header{
+padding: 20px 0;
+  justify-content: space-between;
+}
+.img-card{
+  width: 100%;
+  img{
+    width: 10%;
+  }
+}
+.nav{
+  width: 70%;
+}
+.menu{
+  display: flex;
+  gap: 10px;
+}
+li{
+  list-style: none;
+  a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+  }
+}
