@@ -1,8 +1,10 @@
-%row-shared{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:space-around;
+%btn-shared{
+  font-size: 18px;
+  height: 49px;
+  padding: 0 20px;
+  margin: 0 5px;
 }
+$primary-color:#FF6600;
 @mixin row2-shared{
   display: flex;
   flex-wrap: wrap;
@@ -31,4 +33,11 @@
 }
 .align-item-center{
   align-items: center;
+}
+.btn-primary{
+  @extend %btn-shared;
+}
+.btn-text{
+ @extend %btn-shared;
+  background-color:$primary-color;
 }
