@@ -1,0 +1,34 @@
+%row-shared{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+@mixin row2-shared{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: site-main-font;
+  src: url("../fonts/AgeoPersonalUse-Medium.otf");
+
+}
+.body{
+  font-family: site-main-font sans-serif;
+
+}
+.container{
+  max-width: 1200px;
+ margin: 0 auto;
+}
+.row{
+@include row2-shared;
+}
+.align-item-center{
+  align-items: center;
+}
