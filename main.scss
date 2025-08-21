@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Ubuntu+Condensed&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.body {
+  font-family: "Quicksand", sans-serif;
 }
 .container{
   max-width: 1200px;
@@ -24,7 +29,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 10px 0;
+  gap: 10px;
 
 }
 .header{
@@ -38,7 +43,7 @@ padding: 20px 0;
   }
 }
 .nav{
-  width: 70%;
+  width: 30%;
 }
 .menu{
   display: flex;
@@ -51,4 +56,19 @@ li{
     text-decoration: none;
     color: black;
   }
+}
+
+.img-fluid{
+  width: 50%;
+}
+.text-field{
+  width: 50%;
+
+
+}
+.banner-text{
+  width: 30%
+}
+.title{
+  font-size: 15px;
 }
