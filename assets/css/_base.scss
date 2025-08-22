@@ -43,5 +43,7 @@ $primary-color:#FF6600;
 }
 .btn-text{
  @extend %btn-shared;
+  color:white;
+  border-bottom: 1px solid darkred;
 
 }

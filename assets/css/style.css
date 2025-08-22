@@ -5,6 +5,7 @@
   border: none;
   background: none;
   margin: 0 5px;
+  border-radius: 9px;
 }
 
 * {
@@ -36,7 +37,7 @@
   align-items: center;
 }
 
-.btn-text {
+.btn-primary {
   background-color: #FF6600;
 }
 
