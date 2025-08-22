@@ -39,6 +39,11 @@
 
 .btn-primary {
   background-color: #FF6600;
+  color: white;
+}
+
+.btn-text {
+  border-bottom: 1px solid #FF6600;
 }
 
 header {
