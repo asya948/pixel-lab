@@ -2,7 +2,10 @@
   font-size: 18px;
   height: 49px;
   padding: 0 20px;
+  border: none;
+  background: none;
   margin: 0 5px;
+  border-radius: 9px;
 }
 $primary-color:#FF6600;
 @mixin row2-shared{
@@ -36,8 +39,9 @@ $primary-color:#FF6600;
 }
 .btn-primary{
   @extend %btn-shared;
+  background-color:$primary-color;
 }
 .btn-text{
  @extend %btn-shared;
-  background-color:$primary-color;
+
 }
