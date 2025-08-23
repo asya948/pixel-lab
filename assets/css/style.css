@@ -88,11 +88,16 @@ header {
   align-items: center;
 }
 
+.close-menu {
+  display: none;
+}
+
 @media (max-width: 850px) {
   .burger-bar {
     display: block;
   }
   nav {
+    display: none;
     position: fixed;
     height: 100%;
     width: 90%;
@@ -115,6 +120,12 @@ header {
   }
   .nav-row .btn-text {
     color: white;
+  }
+  .close-menu {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
   }
 }
 
