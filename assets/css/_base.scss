@@ -22,7 +22,7 @@ $primary-color:#FF6600;
 }
 @font-face {
   font-family: site-main-font;
-  src: url("../fonts/AgeoPersonalUse-Medium.otf");
+  src: url("../fonts/AgeoPersonalUse-Bold.otf");
 
 }
 .body{
@@ -50,4 +50,11 @@ $primary-color:#FF6600;
 }
 .section-padding{
   padding: 10px;
+}
+@font-face {
+  font-family: too-main-font;
+  src: url("../fonts/AgeoPersonalUse-Bold.otf");
+}
+body{
+  font-family: too-main-font sans-serif;
 }

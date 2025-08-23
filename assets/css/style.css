@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: site-main-font;
-  src: url("../fonts/AgeoPersonalUse-Medium.otf");
+  src: url("../fonts/AgeoPersonalUse-Bold.otf");
 }
 .body {
   font-family: site-main-font sans-serif;
@@ -44,6 +44,14 @@
 
 .section-padding {
   padding: 10px;
+}
+
+@font-face {
+  font-family: too-main-font;
+  src: url("../fonts/AgeoPersonalUse-Bold.otf");
+}
+body {
+  font-family: too-main-font sans-serif;
 }
 
 header {
@@ -94,6 +102,60 @@ header {
 
 .close-menu {
   display: none;
+}
+
+.text-field {
+  width: 50%;
+}
+
+.text-title {
+  font-size: 70px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.img-fluid {
+  width: 50%;
+}
+
+.py-2 {
+  padding: 20px 0;
+}
+
+.icons-card {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.text-small {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(145, 145, 128);
+}
+
+.align-center {
+  text-align: center;
+}
+
+.text-medium {
+  font-size: 34px;
+}
+
+.img-box {
+  width: 76px;
+  height: 76px;
+}
+
+.my-5 {
+  padding: 50px 0;
+}
+
+.graphic-card {
+  width: 250px;
+  height: 450px;
 }
 
 @media (max-width: 850px) {
