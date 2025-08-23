@@ -1,18 +1,121 @@
-/* Error: expected "}".
- *    ,
- * 21 |     color: white;!important;
- *    |                  ^
- *    '
- *   _responsive.scss 21:18  @use
- *   style.scss 4:1          root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a    \2577 \a 21 \2502      color: white;!important;\d\a    \2502                   ^\a    \2575 \a   _responsive.scss 21:18  @use\a   style.scss 4:1          root stylesheet';
+.btn-text, .btn-primary {
+  font-size: 18px;
+  height: 49px;
+  padding: 0 20px;
+  border: none;
+  background: none;
+  margin: 0 5px;
+  border-radius: 9px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: site-main-font;
+  src: url("../fonts/AgeoPersonalUse-Medium.otf");
+}
+.body {
+  font-family: site-main-font sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.btn-primary {
+  background-color: #FF6600;
+  color: white;
+}
+
+header {
+  padding: 50px 0;
+  width: 100%;
+}
+
+.header-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.logo {
+  width: 240px;
+  height: 49px;
+  object-fit: contain;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.menu li {
+  list-style: none;
+}
+.menu a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.09);
+}
+
+.burger-bar {
+  display: none;
+  object-fit: contain;
+}
+
+.nav-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 850px) {
+  .burger-bar {
+    display: block;
+  }
+  nav {
+    position: fixed;
+    height: 100%;
+    width: 90%;
+    background: black;
+    color: white;
+    left: 0;
+    top: 0;
+  }
+  .menu {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .menu a {
+    color: white;
+    font-size: 78px;
+  }
+  .nav-row {
+    align-items: center;
+    flex-direction: column;
+  }
+  .nav-row .btn-text {
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

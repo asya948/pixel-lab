@@ -26,10 +26,15 @@ padding: 50px 0;
     padding:10px;
     text-decoration:none;
     font-size:18px;
-    color: #0c0b0b;
+    color: rgba(255, 255, 255, 0.09);
   }
 }
 .burger-bar{
 display: none;
   object-fit: contain;
+}
+.nav-row{
+  @include row2-shared;
+  align-items: center;
+
 }

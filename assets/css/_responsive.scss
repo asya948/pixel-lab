@@ -15,9 +15,23 @@
   }
   .menu{
     flex-direction: column;
-  }
+    padding: 15px;
+
 
   a{
-    color: white;!important;
+    color: white;
+    font-size: 78px;
   }
+
+}
+
+.nav-row{
+align-items: center;
+ flex-direction: column;
+
+  .btn-text{
+    color: white;
+
+  }
+}
 }
