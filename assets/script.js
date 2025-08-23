@@ -4,5 +4,5 @@ function showManu(){
 
 function closeBar(){
     document.querySelector('.nav').style.display='none';
-
 }
+

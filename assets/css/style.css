@@ -42,6 +42,10 @@
   color: white;
 }
 
+.section-padding {
+  padding: 10px;
+}
+
 header {
   padding: 50px 0;
   width: 100%;
