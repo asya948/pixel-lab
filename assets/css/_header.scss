@@ -6,12 +6,17 @@ padding: 50px 0;
 
 
 }
+.header-row{
+  @include row2-shared;
+  justify-content: space-between;
+  padding: 0 10px;
+}
 .logo{
   width:240px;
   height:49px;
   object-fit:contain;
 }
-.main{
+.menu{
   @include row2-shared;
 
   li{
@@ -26,4 +31,5 @@ padding: 50px 0;
 }
 .burger-bar{
 display: none;
+  object-fit: contain;
 }
