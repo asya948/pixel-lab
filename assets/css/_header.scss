@@ -1,4 +1,4 @@
-@use "base" as*;
+@use "base" as *;
 
 header{
 padding: 50px 0;
@@ -13,8 +13,6 @@ padding: 50px 0;
 }
 .main{
   @include row2-shared;
-  height: 49px;
-
 
   li{
     list-style:none;
