@@ -64,7 +64,7 @@ display: none;
 
 }
 .text-small{
-  font-size:20px;
+  font-size:24px;
   text-transform: uppercase;
   color: rgb(145, 145, 128);
 }
@@ -72,16 +72,51 @@ display: none;
   text-align: center;
 }
 .text-medium{
-  font-size:34px;
+  font-size:30px;
+  padding: 25px ;
 }
 .img-box{
-  width: 76px;
+  padding:10px 0;
+  width: 46px;
   height: 76px;
+  margin:auto;
+
+
 }
 .my-5{
   padding:50px 0;
 }
 .graphic-card{
-  width: 250px;
-  height: 450px;
+  padding:10px;
+  width: 400px;
+  height: 508px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.title-small{
+  font-size:30px;
+  margin:25px;
+}
+.md-2{
+  margin-top:20px;
+}
+
+.text-file{
+  width:30%;
+}
+.text-2{
+  font-size:22px;
+
+}
+.title-grey{
+
+  font-size:16px;
+color:rgba(21, 20, 57, 0.4)
+}
+.btn-secondary{
+  width: 130px;
+  height: 40px;
+  color:rgba(21, 20, 57, 0.4)
+}
+.radius-4x{
+  border-radius:20px;
 }

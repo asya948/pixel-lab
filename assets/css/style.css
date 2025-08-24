@@ -131,7 +131,7 @@ header {
 }
 
 .text-small {
-  font-size: 20px;
+  font-size: 24px;
   text-transform: uppercase;
   color: rgb(145, 145, 128);
 }
@@ -141,12 +141,15 @@ header {
 }
 
 .text-medium {
-  font-size: 34px;
+  font-size: 30px;
+  padding: 25px;
 }
 
 .img-box {
-  width: 76px;
+  padding: 10px 0;
+  width: 46px;
   height: 76px;
+  margin: auto;
 }
 
 .my-5 {
@@ -154,8 +157,42 @@ header {
 }
 
 .graphic-card {
-  width: 250px;
-  height: 450px;
+  padding: 10px;
+  width: 400px;
+  height: 508px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title-small {
+  font-size: 30px;
+  margin: 25px;
+}
+
+.md-2 {
+  margin-top: 20px;
+}
+
+.text-file {
+  width: 30%;
+}
+
+.text-2 {
+  font-size: 22px;
+}
+
+.title-grey {
+  font-size: 16px;
+  color: rgba(21, 20, 57, 0.4);
+}
+
+.btn-secondary {
+  width: 130px;
+  height: 40px;
+  color: rgba(21, 20, 57, 0.4);
+}
+
+.radius-4x {
+  border-radius: 20px;
 }
 
 @media (max-width: 850px) {
@@ -192,6 +229,192 @@ header {
     position: absolute;
     right: 10px;
     top: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .text-field {
+    width: 70%;
+  }
+  .img-fluid {
+    width: 50%;
+    object-fit: contain;
+  }
+  .btn-text, .btn-primary, .icons-card {
+    width: 100%;
+    padding: 10px 0;
+  }
+}
+@media (max-width: 800px) {
+  .img-fluid {
+    width: 70%;
+    object-fit: contain;
+  }
+  .btn-text, .btn-primary, .icons-card {
+    width: 100%;
+    padding: 10px 0;
+  }
+}
+@media (max-width: 500px) {
+  .img-fluid {
+    width: 100%;
+  }
+}
+@media (max-width: 1250px) {
+  .graphic-card {
+    padding: 10px;
+    width: 400px;
+    height: 508px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .title-small {
+    font-size: 30px;
+    margin: 25px;
+  }
+  .text-medium {
+    font-size: 30px;
+    padding: 25px;
+  }
+  .img-box {
+    padding: 10px 0;
+    width: 46px;
+    height: 76px;
+    margin: auto;
+  }
+}
+@media (max-width: 1205px) {
+  .graphic-card {
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .img-box {
+    padding: 10px 0;
+    width: 46px;
+    height: 76px;
+    margin: auto;
+  }
+  .title-small {
+    font-size: 20px;
+    margin: 15px;
+  }
+  .text-medium {
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+@media (max-width: 950px) {
+  .text-title {
+    font-size: 50px;
+  }
+  .graphic-card {
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .img-box {
+    padding: 10px 0;
+    width: 46px;
+    height: 76px;
+    margin: auto;
+  }
+  .title-small {
+    font-size: 10px;
+    margin: 15px;
+  }
+  .text-medium {
+    font-size: 10px;
+    padding: 15px;
+  }
+}
+@media (max-width: 650px) {
+  .text-title {
+    font-size: 50px;
+  }
+  .graphic-card {
+    margin: 20px;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .img-box {
+    padding: 10px 0;
+    width: 46px;
+    height: 76px;
+    margin: auto;
+  }
+  .title-small {
+    font-size: 25px;
+    margin: 15px;
+  }
+  .text-medium {
+    font-size: 25px;
+    padding: 15px;
+  }
+  .btn-primary {
+    width: 30%;
+  }
+}
+@media (max-width: 430px) {
+  .text-title {
+    font-size: 30px;
+  }
+  .btn-primary {
+    width: 25%;
+  }
+}
+@media (max-width: 650px) {
+  .text-file {
+    width: 50%;
+  }
+  .text-2 {
+    font-size: 32px;
+  }
+  .title-grey {
+    font-size: 36px;
+  }
+  .img-fluid {
+    width: 80%;
+    object-fit: contain;
+    padding: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .text-2 {
+    font-size: 20px;
+  }
+  .title-grey {
+    font-size: 20px;
+  }
+}
+@media (max-width: 350px) {
+  .text-title {
+    font-size: 20px;
+  }
+  .graphic-card {
+    margin: 10px;
+    width: 300px;
+    height: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .img-box {
+    padding: 10px 0;
+    width: 46px;
+    height: 76px;
+    margin: auto;
+  }
+  .title-small {
+    font-size: 25px;
+    margin: 15px;
+  }
+  .text-medium {
+    font-size: 25px;
+    padding: 15px;
+  }
+  .btn-primary {
+    width: 100px;
+    height: 40px;
   }
 }
 
