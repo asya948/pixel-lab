@@ -1,10 +1,10 @@
 %btn-shared{
-  font-size: 18px;
-  height: 49px;
+  font-size: 20px;
+  height: 60px;
   padding: 0 20px;
   border: none;
   background: none;
-  margin: 0 5px;
+  margin:0 5px ;
   border-radius: 9px;
 }
 $primary-color:#FF6600;
@@ -43,7 +43,7 @@ $primary-color:#FF6600;
 }
 .btn-text{
  @extend %btn-shared;
-  color:white;
+  color: black;
   border-bottom: 1px solid darkred;
 
 }
