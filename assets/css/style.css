@@ -252,6 +252,10 @@ header {
   color: white;
 }
 
+.text-7 {
+  font-size: 18px;
+}
+
 @media (max-width: 850px) {
   .burger-bar {
     display: block;
@@ -599,6 +603,44 @@ header {
   }
   .text-small {
     font-size: 5px;
+  }
+}
+@media (max-width: 850px) {
+  .text-7 {
+    font-size: 20px;
+  }
+  .text-button {
+    width: 80%;
+  }
+  .img-fluid {
+    width: 50%;
+  }
+  .text-input {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .img-fluid {
+    width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  .img-fluid {
+    width: 50%;
+  }
+}
+@media (max-width: 250px) {
+  .img-fluid {
+    width: 20%;
+  }
+  .text-7 {
+    font-size: 10px;
+  }
+  .text-button {
+    width: 15%;
+  }
+  .text-input {
+    width: 15%;
   }
 }
 
