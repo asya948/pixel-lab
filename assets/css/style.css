@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: site-main-font;
-  src: url("../fonts/AgeoPersonalUse-Bold.otf");
+  src: url("../fonts/AgeoPersonalUse-Medium.otf");
 }
 .body {
   font-family: site-main-font sans-serif;
@@ -33,25 +33,17 @@
   justify-content: space-around;
 }
 
-.align-items-center {
+.align-item-center {
   align-items: center;
 }
 
 .btn-primary {
   background-color: #FF6600;
+}
+
+.btn-text {
   color: white;
-}
-
-.section-padding {
-  padding: 10px;
-}
-
-@font-face {
-  font-family: too-main-font;
-  src: url("../fonts/AgeoPersonalUse-Bold.otf");
-}
-body {
-  font-family: too-main-font sans-serif;
+  border-bottom: 1px solid darkred;
 }
 
 header {
