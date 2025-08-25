@@ -1,5 +1,3 @@
-
-
 %btn-shared{
   font-size: 18px;
   height: 49px;
@@ -22,7 +20,7 @@ $primary-color:#FF6600;
 }
 @font-face {
   font-family: site-main-font;
-  src: url("../fonts/AgeoPersonalUse-Bold.otf");
+  src: url("../fonts/AgeoPersonalUse-Medium.otf");
 
 }
 .body{
@@ -36,25 +34,16 @@ $primary-color:#FF6600;
 .row{
 @include row2-shared;
 }
-.align-items-center{
+.align-item-center{
   align-items: center;
 }
 .btn-primary{
   @extend %btn-shared;
   background-color:$primary-color;
-  color:white;
 }
 .btn-text{
  @extend %btn-shared;
+  color:white;
+  border-bottom: 1px solid darkred;
 
-}
-.section-padding{
-  padding: 10px;
-}
-@font-face {
-  font-family: too-main-font;
-  src: url("../fonts/AgeoPersonalUse-Bold.otf");
-}
-body{
-  font-family: too-main-font sans-serif;
 }
