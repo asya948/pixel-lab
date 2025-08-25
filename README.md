@@ -21,7 +21,7 @@ A simple, minimalist website with a black-and-white background, featuring a head
 
 ## Demo Screenshot
 
-![Desktop Demo](../img/logo/screencapture-localhost-63342-pixel-lab-assets-css-index-html-2025-08-25-13_59_28.png))
+![Desktop Demo](assets/img/logo/screencapture-localhost-63342-pixel-lab-assets-css-index-html-2025-08-25-13_59_28.png))
 
 ---
 
