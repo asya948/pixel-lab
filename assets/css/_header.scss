@@ -97,7 +97,7 @@ display: none;
   margin:25px;
 }
 .md-2{
-margin-top:25px;
+margin-top: 20px;
 }
 
 .text-file{
@@ -173,7 +173,7 @@ display: block;
 .text-button{
   @extend %btn-shared;
   width:600px;
-  height:40px;
+  height:30px;
   background-color:$primary-color;
   color:white;
 

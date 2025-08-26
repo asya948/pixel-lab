@@ -1,6 +1,6 @@
 .text-button, .btn-text, .btn-primary {
   font-size: 20px;
-  height: 60px;
+  height: 50px;
   padding: 0 20px;
   border: none;
   background: none;
@@ -161,7 +161,7 @@ header {
 }
 
 .md-2 {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .text-file {
@@ -239,7 +239,7 @@ header {
 
 .text-button {
   width: 600px;
-  height: 40px;
+  height: 30px;
   background-color: #FF6600;
   color: white;
 }
@@ -507,6 +507,11 @@ header {
   .btn-primary {
     width: 50px;
     height: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .btn-text {
+    font-size: 10px;
   }
 }
 @media (max-width: 150px) {
